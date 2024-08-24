@@ -22,7 +22,8 @@ The project uses the following Python libraries:
 - `PIL`: For image processing tasks.
 
 ```bash
-pip install pandas matplotlib ipywidgets pillow```
+pip install pandas matplotlib ipywidgets pillow
+```
 
 ## Setup and Usage
 
