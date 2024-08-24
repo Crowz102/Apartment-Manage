@@ -10,6 +10,16 @@ The project relies on three CSV files to store and manage data:
 - **Customer_ap.csv**: Stores data related to customers who have applied or rented properties.
 - **attachment.csv**: Manages various attachments related to the properties or customers.
 
+
+## Setup and Usage
+
+To use this project, you need to run it in Google Colab. Make sure the required CSV files are uploaded to your Google Drive and update the file paths accordingly.
+
+```python
+csv_path = '/content/drive/MyDrive/CSV/Room.csv'
+csv_pathCus = '/content/drive/MyDrive/CSV/Customer_ap.csv'
+csv_pathAttachment = '/content/drive/MyDrive/CSV/attachment.csv'
+
 ## Libraries Used
 
 The project uses the following Python libraries:
@@ -24,11 +34,3 @@ The project uses the following Python libraries:
 ```bash
 pip install pandas matplotlib ipywidgets pillow
 
-## Setup and Usage
-
-To use this project, you need to run it in Google Colab. Make sure the required CSV files are uploaded to your Google Drive and update the file paths accordingly.
-
-```python
-csv_path = '/content/drive/MyDrive/CSV/Room.csv'
-csv_pathCus = '/content/drive/MyDrive/CSV/Customer_ap.csv'
-csv_pathAttachment = '/content/drive/MyDrive/CSV/attachment.csv'
