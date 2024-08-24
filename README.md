@@ -21,7 +21,7 @@ The project uses the following Python libraries:
 - `IPython.display`: For displaying various types of output such as HTML, images, etc.
 - `PIL`: For image processing tasks.
 
-***bash
+```bash
 pip install pandas matplotlib ipywidgets pillow
 
 ## Setup and Usage
