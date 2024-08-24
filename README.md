@@ -21,6 +21,9 @@ The project uses the following Python libraries:
 - `IPython.display`: For displaying various types of output such as HTML, images, etc.
 - `PIL`: For image processing tasks.
 
+***bash
+pip install pandas matplotlib ipywidgets pillow
+
 ## Setup and Usage
 
 To use this project, you need to run it in Google Colab. Make sure the required CSV files are uploaded to your Google Drive and update the file paths accordingly.
